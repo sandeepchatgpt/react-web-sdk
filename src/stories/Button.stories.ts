@@ -19,9 +19,9 @@ const meta = {
       options: ['small', 'medium', 'large'],
     },
     children: {
-      control: 'text', // Control type for children
+      control: 'text',
     },
-    onClick: { action: 'clicked' }, // This adds an action logger for the onClick event
+    onClick: { action: 'clicked' },
   },
   args: { children: 'Button', onClick: fn(), appearance: 'primary', size: 'medium' },
 } satisfies Meta<typeof WzButton>;
